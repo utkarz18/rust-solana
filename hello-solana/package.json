@@ -4,7 +4,7 @@
     "description": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Coding-and-Crypto/Rust-Solana-Tutorial.git"
+        "url": "https://github.com/utkarz18/rust-solana.git"
     },
     "scripts": {
         "start": "ts-node src/client/main.ts",
