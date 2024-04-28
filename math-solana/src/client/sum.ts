@@ -12,11 +12,11 @@ class MathSolanaSum {
     }
 }
 
-// const MathSolanaSumSchema = new Map([
-//     [MathSolanaSum, { kind: 'struct', fields: [['sum', 'u32']] }],
-// ]);
+const MathSolanaSumSchema = new Map([
+    [MathSolanaSum, { kind: 'struct', fields: [['sum', 'u32']] }],
+]);
 
-const MathSolanaSumSchema = { struct: { sum: 'u32' } };
+//const MathSolanaSumSchema = { struct: { sum: 'u32' } };
 
 const MATH_SOLANA_SUM_SIZE = borsh.serialize(
     MathSolanaSumSchema,
@@ -37,5 +37,3 @@ main().then(
         process.exit(-1);
     },
 );
-
-//DGiSDVP4X4v5sV28nx8xdu3avE8YKhBgwTMCfVs88yKP

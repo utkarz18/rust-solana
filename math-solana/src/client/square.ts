@@ -4,10 +4,10 @@ import * as math from './math';
 
 
 class MathSolanaSquare {
-    sum = 0;
-    constructor(fields: {sum: number} | undefined = undefined) {
+    square = 1;
+    constructor(fields: {square: number} | undefined = undefined) {
       if (fields) {
-        this.sum = fields.sum;
+        this.square = fields.square;
       }
     }
   }

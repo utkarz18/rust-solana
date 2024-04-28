@@ -4818,8 +4818,8 @@ dependencies = [
 name = "square"
 version = "0.1.0"
 dependencies = [
- "borsh 1.4.0",
- "borsh-derive 1.4.0",
+ "borsh 0.9.3",
+ "borsh-derive 0.9.3",
  "solana-program",
  "solana-program-test",
  "solana-sdk",

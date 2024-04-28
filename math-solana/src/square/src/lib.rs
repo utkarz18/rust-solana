@@ -40,7 +40,7 @@ fn process_instruction(
     msg!("Lamports: {:#?}", account.lamports);
     msg!("Debug output complete.");
 
-    msg!("Adding 1 to sum...");
+    msg!("Squaring value");
 
     let mut math_stuff = MathSolanaSquare::try_from_slice(&account.data.borrow())?;
     math_stuff.square = math_stuff.square.pow(2);
